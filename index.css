@@ -32,6 +32,8 @@
   border: 1px solid #ccc;
   box-sizing: border-box;
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav button {
@@ -50,4 +52,24 @@
 
 .next {
   right: -30px;
+}
+
+.card > * {
+  flex: 1;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.info {
+  flex-basis: 40px;
+  flex-grow: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #333;
+  color: #fff;
 }
