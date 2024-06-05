@@ -11,3 +11,7 @@ const cardWidth = document.querySelector(".card-container").offsetWidth;
 next.addEventListener("click", () => {
   track.style.transform = `translateX(-${cardWidth}px)`;
 });
+
+prev.addEventListener("click", () => {
+  track.style.transform = `translateX(${0}px)`;
+});
